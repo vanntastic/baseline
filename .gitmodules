@@ -1,0 +1,3 @@
+[submodule "formalize"]
+	path = formalize
+	url = http://github.com/nathansmith/formalize.git
