@@ -5,6 +5,14 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Baseline : A simple, sensible collection of styles</title>
     <link rel="stylesheet" href="baseline.css" type="text/css" media="screen" title="Baseline" charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.formalize.js"></script> 
+    <style type="text/css" media="screen">
+      body{
+        font: 12px "Helvetica", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+        line-height:1.75em;
+      }
+    </style>
   </head>
   <body>
     <div class="container-12">
@@ -30,60 +38,79 @@
 
           <ul>
             <li>Assume it knows what font you like</li>
-            <li>Reset your css for you, well it kinda does, but only on the viewport</li>
+            <li>Reset your default styles</li>
           </ul>
         </div>
       </div>
       
-      <h1>Buttons</h1>
+      <div id="buttons-examples" class="clearfix">
+        <h1>Buttons</h1>
       
-      <p>
-        Some awesome button styles have been included courtesy of <a href="http://www.zurb.com/blog_uploads/0000/0617/buttons-03.html">Zurb.</a> 
-      </p>
+        <p>
+          Some awesome button styles have been included courtesy of <a href="http://www.zurb.com/blog_uploads/0000/0617/buttons-03.html">Zurb.</a>.. too bad it looks like garbage in 
+          IE.
+        </p>
       
-      <div id="large-buttons" class="grid-3">
-        <h2>Round Large Buttons</h2>
-        <p><a href="#" class="large black-gloss awesome">Large</a></p>
-        <p><a href="#" class="large awesome">Large</a></p>
-        <p><a href="#" class="large awesome blue">Large</a> </p>
-        <p><a href="#" class="large awesome magenta">Large</a> </p>
-        <p><a href="#" class="large awesome red">Large</a> </p>
-        <p><a href="#" class="large awesome orange">Large</a> </p>
-        <p><a href="#" class="large awesome yellow">Large</a> </p>
+        <div id="large-buttons" class="grid-3">
+          <h2>Round Large Buttons</h2>
+          <p><a href="#" class="large black-gloss awesome">Large</a></p>
+          <p><a href="#" class="large awesome">Large</a></p>
+          <p><a href="#" class="large awesome blue">Large</a> </p>
+          <p><a href="#" class="large awesome magenta">Large</a> </p>
+          <p><a href="#" class="large awesome red">Large</a> </p>
+          <p><a href="#" class="large awesome orange">Large</a> </p>
+          <p><a href="#" class="large awesome yellow">Large</a> </p>
+        </div>
+      
+        <div id="large-sq-buttons" class="grid-3">
+          <h2>Square Large Buttons</h2>
+          <p><a href="#" class="square black-gloss large awesome">Large</a></p>
+          <p><a href="#" class="square large awesome">Large</a></p>
+          <p><a href="#" class="square large awesome blue">Large</a> </p>
+          <p><a href="#" class="square large awesome magenta">Large</a> </p>
+          <p><a href="#" class="square large awesome red">Large</a> </p>
+          <p><a href="#" class="square large awesome orange">Large</a> </p>
+          <p><a href="#" class="square large awesome yellow">Large</a> </p>
+        </div>
+      
+        <div id="med-sq-buttons" class="grid-3">
+          <h2>Square Medium Buttons</h2>
+          <p><a href="#" class="square black-gloss medium awesome">Medium</a></p>
+          <p><a href="#" class="square medium awesome">Medium</a></p>
+          <p><a href="#" class="square medium awesome blue">Medium</a> </p>
+          <p><a href="#" class="square medium awesome magenta">Medium</a> </p>
+          <p><a href="#" class="square medium awesome red">Medium</a> </p>
+          <p><a href="#" class="square medium awesome orange">Medium</a> </p>
+          <p><a href="#" class="square medium awesome yellow">Medium</a> </p>
+        </div>
+      
+        <div id="small-sq-buttons" class="grid-3">
+          <h2>Square Small Buttons</h2>
+          <p><a href="#" class="square black-gloss small awesome">Small</a></p>
+          <p><a href="#" class="square small awesome">Small</a></p>
+          <p><a href="#" class="square small awesome blue">Small</a> </p>
+          <p><a href="#" class="square small awesome magenta">Small</a> </p>
+          <p><a href="#" class="square small awesome red">Small</a> </p>
+          <p><a href="#" class="square small awesome orange">Small</a> </p>
+          <p><a href="#" class="square small awesome yellow">Small</a> </p>
+        </div>
       </div>
       
-      <div id="large-sq-buttons" class="grid-3">
-        <h2>Square Large Buttons</h2>
-        <p><a href="#" class="square black-gloss large awesome">Large</a></p>
-        <p><a href="#" class="square large awesome">Large</a></p>
-        <p><a href="#" class="square large awesome blue">Large</a> </p>
-        <p><a href="#" class="square large awesome magenta">Large</a> </p>
-        <p><a href="#" class="square large awesome red">Large</a> </p>
-        <p><a href="#" class="square large awesome orange">Large</a> </p>
-        <p><a href="#" class="square large awesome yellow">Large</a> </p>
+      <div id="forms-examples" class="clearfix">
+        <h1>Forms and fields (using formalize)</h1>
+        <p>
+          Some cool (and consistent) forms using <a href="http://sonspring.com/journal/formalize-css">formalize</a>. 
+        </p>
+        <label for="url">URL + Autofocus</label><br />
+        <input type="url" name="url" value="http://" autofocus="autofocus" id="url" />
+        
+        <input type="submit" name="submit" value="Submit Button" id="submit" />
+        
+        <p>
+          See more examples here: <a href="http://host.sonspring.com/formalize/">http://host.sonspring.com/formalize/</a> 
+        </p>
       </div>
       
-      <div id="med-sq-buttons" class="grid-3">
-        <h2>Square Medium Buttons</h2>
-        <p><a href="#" class="square black-gloss medium awesome">Medium</a></p>
-        <p><a href="#" class="square medium awesome">Medium</a></p>
-        <p><a href="#" class="square medium awesome blue">Medium</a> </p>
-        <p><a href="#" class="square medium awesome magenta">Medium</a> </p>
-        <p><a href="#" class="square medium awesome red">Medium</a> </p>
-        <p><a href="#" class="square medium awesome orange">Medium</a> </p>
-        <p><a href="#" class="square medium awesome yellow">Medium</a> </p>
-      </div>
-      
-      <div id="small-sq-buttons" class="grid-3">
-        <h2>Square Small Buttons</h2>
-        <p><a href="#" class="square black-gloss small awesome">Small</a></p>
-        <p><a href="#" class="square small awesome">Small</a></p>
-        <p><a href="#" class="square small awesome blue">Small</a> </p>
-        <p><a href="#" class="square small awesome magenta">Small</a> </p>
-        <p><a href="#" class="square small awesome red">Small</a> </p>
-        <p><a href="#" class="square small awesome orange">Small</a> </p>
-        <p><a href="#" class="square small awesome yellow">Small</a> </p>
-      </div>
     </div>
   </body>
 </html>
