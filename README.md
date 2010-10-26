@@ -1,7 +1,7 @@
 Baseline
 ========
 
-Simply a collection of css files that I use as a baseline for getting started with a project, this is a collection of various frameworks such as [960.gs](http://github.com/nathansmith/960-Grid-System) and [formalize](http://host.sonspring.com/formalize/) to get up and running quick with a project. This is mainly a nice set of defaults that I like to use.
+Simply a collection of css files that I use as a baseline for getting started with a project, this is a collection of various frameworks such as [960.gs](http://github.com/nathansmith/960-Grid-System) and [formalize](http://host.sonspring.com/formalize/) to get up and running quick with a project. This is mainly a nice set of defaults that I like to use, I don't use resets or assume what font or line-height you like, everything is meant to be overridden.
 
 Plug and Play
 =============
