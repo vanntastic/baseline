@@ -7,7 +7,7 @@ Plug and Play
 =============
     
     // Clone it into whatever project you're working on and then
-    git clone http://github.com/vanntastic/baseline you/project/directory/baseline
+    git clone http://github.com/vanntastic/baseline.git you/project/directory/baseline
     
     // Assuming you cloned it into baseline
     <link rel="stylesheet" href="baseline/baseline.css" type="text/css" media="screen" 
