@@ -8,3 +8,4 @@ Included in this collection
 
 - 960.gs, 12 columns, fixed & fluid (with slight modifications) - Generated from [http://www.spry-soft.com/grids/](http://www.spry-soft.com/grids/)
 - [Awesome buttons from zurb](http://www.zurb.com/playground/super-awesome-buttons) 
+- [Formalize CSS](http://sonspring.com/journal/formalize-css)
