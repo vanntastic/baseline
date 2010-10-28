@@ -13,7 +13,7 @@ Plug and Play
     <link rel="stylesheet" href="baseline/baseline.css" type="text/css" media="screen" 
           title="Baseline" charset="utf-8">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.formalize.js"></script>
+    <script type="text/javascript" src="baseline/jquery.formalize.js"></script>
 
 Included in this collection
 ===========================
